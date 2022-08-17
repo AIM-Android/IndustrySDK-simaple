@@ -1,0 +1,104 @@
+<resources>
+
+    <string name="app_name">simaple</string>
+
+    <string name="timesetting">TimeSetting</string>
+    <string name="timesetting1">time setting</string>
+    <string name="auto_time_title">Automatic date &amp; time</string>
+    <string name="auto_time_summary">Use network-provided time</string>
+
+    <string name="set_data_title">Set date</string>
+    <string name="set_data_summary">%1$s</string>
+
+    <string name="set_time_title">Set time</string>
+    <string name="set_time_summary">%1$s</string>
+
+    <string name="auto_time_zone_title">Automatic time zone</string>
+    <string name="auto_time_zone_summary">Use network-provided time zone</string>
+
+    <string name="select_time_zone_title">Select time zone</string>
+    <string name="select_time_zone_summary">%1$s</string>
+
+    <string name="use_24_hour_format_title">Use 24-hour format</string>
+    <string name="use_24_hour_format_summary_1_pm">1:00 PM</string>
+    <string name="use_24_hour_format_summary_13">13:00</string>
+
+
+    <string name="landscape">Landscape</string>
+    <string name="portrait">Portrait</string>
+    <string name="reverse_landscape">Reverse Landscape</string>
+    <string name="reverse_portrait">Reverse Portrait</string>
+    <string name="keep_rotating_after_boot">Keep rotating after boot</string>
+
+    <string name="app_manager">App Manager</string>
+    <string name="app_manager1">app manager</string>
+    <string name="switch_settings">Switch Settings</string>
+    <string name="kiosk_setting">Kiosk App Settings</string>
+    <string name="kiosk_setting1">kiosk app settings</string>
+    <string name="wifi_settings">Wifi Settings</string>
+    <string name="wifi_settings1">wifi</string>
+    <string name="app_settings">app settings</string>
+    <string name="bluetooth_settings">Bluetooth Settings</string>
+    <string name="bluetooth">bluetooth</string>
+    <string name="location">Location</string>
+    <string name="location1">Location Setting</string>
+    <string name="adb_settings">ADB Settings</string>
+    <string name="lock_screen">Lock Screen Settings</string>
+    <string name="brightness_adjustment">System Brightness Adjustment</string>
+    <string name="brightness_adjustment1">brightness</string>
+    <string name="orientation_setting">Screen Orientation Setting</string>
+    <string name="orientation_setting1">screen orientation</string>
+    <string name="battery_management">Battery Management</string>
+    <string name="battery_status">battery status</string>
+    <string name="battery_temperature">battery temperature</string>
+
+    <string name="power_level">power level</string>
+    <string name="battery_specification">battery specification</string>
+    <string name="no_battery">no battery</string>
+    <string name="health">health</string>>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="sound_settings">Sound Settings</string>
+    <string name="sound_size">sound size</string>
+    <string name="bell">bell</string>
+    <string name="multimedia_sound">multimedia sound</string>
+    <string name="clock"> alarm clock</string>
+    <string name="restarted">The system will be shut down and restarted in 10 seconds</string>
+    <string name="power_on_status">Power on status</string>
+    <string name="the_system_will">the system will shutdown and restart after </string>
+    <string name="shutdown_restart">seconds</string>
+    <string name="brightness">brightness</string>
+    <string name="never_sleep">never sleep</string>
+    <string name="seconds">seconds</string>
+    <string name="minutes">minutes</string>
+
+    <string name="longitude1">longitude </string>
+    <string name="latitude1">latitude</string>
+    <string name="altitude">altitude</string>
+    <string name="satellites">number of satellites</string>
+
+    <string-array name="time_out1">
+        <item>10sencond</item>
+        <item>15sencond</item>
+        <item>1minute</item>
+        <item>2minutes</item>
+        <item>5minutes</item>
+        <item>10minutes</item>
+        <item>30minutes</item>
+        <item>Never sleep</item>
+    </string-array>
+    <string-array name="time_out2">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string name="sleep_duration">sleep duration</string>
+    <string name="shutdown">shutdown</string>
+    <string name="reboot">Reboot</string>
+
+</resources>

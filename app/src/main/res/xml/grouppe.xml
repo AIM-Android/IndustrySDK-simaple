@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:targetpre="http://schemas.android.com/apk/res-auto"
+    android:key="root">
+
+    <PreferenceCategory
+        android:key="fpc"
+        android:title="first bold">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pref_is_full_app"
+            android:layout="@layout/card_preference"
+            android:persistent="true"
+            android:summary="is_full_app_desc"
+            android:title="@string/app_name" />
+        <Preference
+            android:key="go_launcher"
+            android:persistent="false"
+            android:title="go_launcher_title">
+
+        </Preference>
+    </PreferenceCategory>
+
+
+    <PreferenceCategory>
+        <Preference
+            android:icon="@drawable/ic_launcher_foreground"
+            android:key="blue"
+            android:layout="@layout/card_preference"
+            android:persistent="false"
+            android:summary="红"
+            android:title="@string/app_name">
+
+
+        </Preference>
+        <Preference
+            android:icon="@drawable/ic_launcher_foreground"
+            android:layout="@layout/card_preference"
+            android:persistent="false"
+            android:summary="黄"
+            android:title="@string/app_name">
+            <intent android:action="android.settings.DEVICE_INFO_SETTINGS" />
+        </Preference>
+        <Preference
+            android:icon="@drawable/ic_launcher_foreground"
+            android:layout="@layout/card_preference"
+            android:persistent="false"
+            android:summary="蓝"
+            android:title="@string/app_name">
+            <intent android:action="android.settings.DEVICE_INFO_SETTINGS" />
+        </Preference>
+    </PreferenceCategory>
+
+    <!--for divide-->
+    <Preference
+        android:selectable="false"/>
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:layout="@layout/card_preference"
+        android:persistent="true"
+        android:summary="just see color"
+        android:title="@string/app_name" />
+
+</PreferenceScreen>

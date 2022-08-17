@@ -1,0 +1,191 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.advantech.simpale.RotateControlActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="30dp"
+        android:paddingStart="30dp">
+
+        <View
+            android:id="@+id/shortcut_landscape_itv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="{icon-landscape}"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/shortcut_landscape_itv"
+            android:paddingStart="5dp"
+            android:text="@string/landscape"
+            android:textSize="20sp" />
+
+        <com.advantech.simpale.SwitchButton
+            android:id="@+id/shortcut_landscape_sb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical|end" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="30dp"
+        android:paddingStart="30dp">
+
+        <View
+            android:id="@+id/shortcut_portrait_itv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="{icon-portrait}"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/shortcut_portrait_itv"
+            android:paddingStart="5dp"
+            android:text="@string/portrait"
+            android:textSize="20sp" />
+
+        <com.advantech.simpale.SwitchButton
+            android:id="@+id/shortcut_portrait_sb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical|end" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="30dp"
+        android:paddingStart="30dp">
+
+        <View
+            android:id="@+id/shortcut_reverse_landscape_itv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="{icon-reverse-landscape}"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/shortcut_reverse_landscape_itv"
+            android:paddingStart="5dp"
+            android:text="@string/reverse_landscape"
+            android:textSize="20sp" />
+
+        <com.advantech.simpale.SwitchButton
+            android:id="@+id/shortcut_reverse_landscape_sb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical|end" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="30dp"
+        android:paddingStart="30dp">
+
+        <View
+            android:id="@+id/shortcut_reverse_portrait_itv"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="{icon-reverse-portrait}"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/shortcut_reverse_portrait_itv"
+            android:paddingStart="5dp"
+            android:text="@string/reverse_portrait"
+            android:textSize="20sp" />
+
+        <com.advantech.simpale.SwitchButton
+            android:id="@+id/shortcut_reverse_portrait_sb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical|end" />
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="10dp"
+        android:background="@color/mediumgrey" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="30dp"
+        android:paddingStart="30dp">
+
+        <View
+            android:id="@+id/shortcut_start_on_boot_itv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="{icon-lock-rotation}"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/shortcut_start_on_boot_itv"
+            android:paddingStart="5dp"
+            android:text="@string/keep_rotating_after_boot"
+            android:textSize="20sp" />
+
+        <com.advantech.simpale.SwitchButton
+            android:id="@+id/shortcut_keep_rotate_onboot_sb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical|end" />
+    </RelativeLayout>
+
+</LinearLayout>

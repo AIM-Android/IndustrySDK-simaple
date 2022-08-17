@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">simaple</string>
+
+    <string name="timesetting">时间和日期设置</string>
+    <string name="timesetting1">时间和日期设置</string>
+    <string name="auto_time_title">自动确定日期和时间</string>
+    <string name="auto_time_summary">使用网络提供的时间</string>
+
+    <string name="set_data_title">设置日期</string>
+    <string name="set_data_summary">%1$s</string>
+
+    <string name="set_time_title">设置时间</string>
+    <string name="set_time_summary">%1$s</string>
+
+    <string name="auto_time_zone_title">自动确定时区</string>
+    <string name="auto_time_zone_summary">使用网络提供的时区</string>
+
+    <string name="select_time_zone_title">选择时区</string>
+    <string name="select_time_zone_summary">%1$s</string>
+
+    <string name="use_24_hour_format_title">使用24小时制</string>
+    <string name="use_24_hour_format_summary_1_pm">下午1:00</string>
+    <string name="use_24_hour_format_summary_13">13:00</string>
+
+    <string name="landscape">横屏</string>
+    <string name="portrait">竖屏</string>
+    <string name="reverse_landscape">反向横屏</string>
+    <string name="reverse_portrait">反向竖屏</string>
+    <string name="keep_rotating_after_boot">开机后保持旋转</string>
+
+
+    <string name="app_manager">app管理</string>
+    <string name="app_manager1">app管理页面</string>
+    <string name="switch_settings">开关设置</string>
+    <string name="kiosk_setting">Kiosk设置</string>
+    <string name="kiosk_setting1">kiosk设置</string>
+    <string name="app_settings">app 设置</string>
+    <string name="wifi_settings">wifi 设置</string>
+    <string name="wifi_settings1">wifi</string>
+    <string name="bluetooth_settings">蓝牙设置</string>
+    <string name="bluetooth">蓝牙</string>
+    <string name="location">定位</string>
+    <string name="location1">定位设置</string>
+    <string name="adb_settings">adb设置</string>
+    <string name="lock_screen">锁屏设置</string>
+    <string name="brightness_adjustment">系统亮度调节</string>
+    <string name="brightness_adjustment1">亮度</string>
+    <string name="orientation_setting">屏幕方向设置</string>
+    <string name="orientation_setting1">屏幕方向</string>
+    <string name="battery_management">电池管理</string>
+    <string name="battery_status">电池状态</string>
+    <string name="battery_temperature">电池温度</string>
+    <string name="power_level">电量大小</string>
+    <string name="battery_specification">电池规格</string>
+    <string name="no_battery">无电池</string>
+    <string name="health">健康度</string>>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+    <string name="sound_settings">声音设置</string>
+    <string name="sound_size">声音大小</string>
+    <string name="bell">铃声</string>
+    <string name="multimedia_sound">多媒体声音</string>
+    <string name="clock">闹钟</string>
+    <string name="restarted">系统将在10秒后关机重启</string>
+    <string name="power_on_status">开机状态</string>
+    <string name="the_system_will">系统将在</string>
+    <string name="shutdown_restart">秒后关机重启</string>
+    <string name="brightness">亮度</string>
+    <string name="never_sleep">永不休眠</string>
+    <string name="seconds">秒</string>
+    <string name="minutes">分</string>
+
+    <string name="longitude1">经度</string>
+    <string name="latitude1">纬度</string>
+    <string name="altitude">海拔</string>
+    <string name="satellites">卫星数量</string>
+
+    <string-array name="time_out1">
+        <item>10秒</item>
+        <item>15秒</item>
+        <item>1分钟</item>
+        <item>2分钟</item>
+        <item>5分钟</item>
+        <item>10分钟</item>
+        <item>30分钟</item>
+        <item>永不休眠</item>
+    </string-array>
+    <string-array name="time_out2">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string name="sleep_duration">休眠时长</string>
+    <string name="shutdown">关机</string>
+    <string name="reboot">重启</string>
+
+</resources>

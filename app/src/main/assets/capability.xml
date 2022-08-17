@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<BaseCapability>
+  <capability device="usm_110"><!--rk3288 android6-->
+    <cpuTemp>false</cpuTemp>
+    <cpuUsage>true</cpuUsage>
+    <memoryUsage>true</memoryUsage>
+    <storage>true</storage>
+  </capability>
+  <capability device="rk3288-Android10"><!--PCM-->
+    <cpuTemp>true</cpuTemp>
+    <cpuUsage>true</cpuUsage>
+    <memoryUsage>true</memoryUsage>
+    <storage>true</storage>
+  </capability>
+  <capability device="rk3288"><!--rk3288 android8-->
+    <cpuTemp>true</cpuTemp>
+    <cpuUsage>true</cpuUsage>
+    <memoryUsage>true</memoryUsage>
+    <storage>true</storage>
+  </capability>
+  <capability device="SABRESD-MX6DQ"><!--imx6-->
+    <cpuTemp>true</cpuTemp>
+    <cpuUsage>true</cpuUsage>
+    <memoryUsage>true</memoryUsage>
+    <storage>true</storage>
+  </capability>
+  <capability device="AIM"><!--AIM serial-->
+    <cpuTemp>true</cpuTemp>
+    <cpuUsage>true</cpuUsage>
+    <memoryUsage>true</memoryUsage>
+    <storage>true</storage>
+  </capability>
+  <capability device="rk3399-Android10">
+    <cpuTemp>true</cpuTemp>
+    <cpuUsage>true</cpuUsage>
+    <memoryUsage>true</memoryUsage>
+    <storage>true</storage>
+  </capability>
+  <capability device="rk3399-mid-yh">
+    <cpuTemp>true</cpuTemp>
+    <cpuUsage>true</cpuUsage>
+    <memoryUsage>true</memoryUsage>
+    <storage>true</storage>
+  </capability>
+  <capability device="rk3399">
+    <cpuTemp>false</cpuTemp>
+    <cpuUsage>true</cpuUsage>
+    <memoryUsage>true</memoryUsage>
+    <storage>true</storage>
+  </capability>
+  <capability device="TPC-300-P83xA">
+    <cpuTemp>true</cpuTemp>
+    <cpuUsage>true</cpuUsage>
+    <memoryUsage>true</memoryUsage>
+    <storage>true</storage>
+  </capability>
+</BaseCapability>
+

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:example="http://schemas.android.com/apk/res-auto">
+
+    <com.advantech.simpale.MyPreferenceCategory
+        android:key="date"
+        android:title="@string/timesetting">
+        <Preference
+            android:icon="@drawable/time"
+            android:key="settingdate"
+            android:singleLineTitle="true"
+            android:summary=""
+            android:title="@string/timesetting1" />
+
+
+    </com.advantech.simpale.MyPreferenceCategory>
+
+
+    <com.advantech.simpale.MyPreferenceCategory
+        android:key=""
+        android:title="@string/kiosk_setting">
+
+        <Preference
+            android:icon="@drawable/app"
+            android:key="kiosk_activity"
+            android:summary="@string/app_settings"
+            android:title="@string/kiosk_setting1" />
+
+
+    </com.advantech.simpale.MyPreferenceCategory>
+
+
+    <com.advantech.simpale.MyPreferenceCategory
+        android:key=""
+        android:title="@string/app_manager">
+        <Preference
+            android:icon="@drawable/manage"
+            android:key="app_manager"
+            android:summary=""
+            android:title="@string/app_manager1" />
+    </com.advantech.simpale.MyPreferenceCategory>
+
+    <com.advantech.simpale.MyPreferenceCategory
+        android:key=""
+        android:title="@string/switch_settings">
+
+        <SwitchPreference
+            android:icon="@drawable/reboot"
+            android:key="Reboot"
+            android:shadowColor="#1638F4"
+            android:summary=""
+            android:title="@string/reboot" />
+
+
+        <Preference
+            android:icon="@drawable/shutdown"
+            android:key="Shutdown"
+            android:summary=""
+            android:title="@string/shutdown" />
+
+    </com.advantech.simpale.MyPreferenceCategory>
+
+    <com.advantech.simpale.MyPreferenceCategory
+        android:key=""
+
+        android:title="@string/wifi_settings">
+
+        <SwitchPreference
+            android:icon="@drawable/wifi"
+            android:key="wifi_state"
+            android:shadowColor="#1638F4"
+            android:summary=""
+            android:title="@string/wifi_settings1" />
+
+    </com.advantech.simpale.MyPreferenceCategory>
+
+    <com.advantech.simpale.MyPreferenceCategory
+        android:key=""
+        android:title="@string/bluetooth_settings">
+
+        <SwitchPreference
+            android:icon="@drawable/bluetooth"
+            android:key="bluetooth"
+            android:shadowColor="#1638F4"
+            android:summary=""
+            android:title="@string/bluetooth" />
+
+    </com.advantech.simpale.MyPreferenceCategory>
+    <com.advantech.simpale.MyPreferenceCategory
+        android:key="location_setting"
+        android:title="@string/location1">
+
+        <SwitchPreference
+            android:icon="@drawable/location"
+            android:key="location"
+            android:summary=""
+            android:title="@string/location" />
+        <Preference
+            android:icon="@drawable/longtitue"
+            android:key="longitude"
+            android:summary=""
+            android:title="@string/longitude1" />
+        <Preference
+            android:icon="@drawable/latitue"
+            android:key="latitude"
+            android:summary=""
+            android:title="@string/latitude1" />
+
+        <Preference
+            android:icon="@drawable/altitue"
+            android:key="altitude"
+            android:summary=""
+            android:title="@string/altitude" />
+
+        <Preference
+            android:icon="@drawable/satellites"
+            android:key="satellites"
+            android:summary=""
+            android:title="@string/satellites" />
+
+    </com.advantech.simpale.MyPreferenceCategory>
+
+
+    <com.advantech.simpale.MyPreferenceCategory
+        android:key=""
+        android:title="@string/adb_settings">
+
+        <SwitchPreference
+            android:icon="@drawable/adb"
+            android:key="adb"
+            android:summary=""
+            android:title="adb" />
+
+    </com.advantech.simpale.MyPreferenceCategory>
+
+    <com.advantech.simpale.MyPreferenceCategory
+        android:key=""
+        android:title="@string/lock_screen">
+
+        <ListPreference
+            android:entries="@array/time_out1"
+            android:entryValues="@array/time_out2"
+            android:icon="@drawable/timeout"
+            android:key="time_out"
+            android:persistent="false"
+            android:summary=""
+            android:title="@string/sleep_duration" />
+
+
+    </com.advantech.simpale.MyPreferenceCategory>
+
+    <com.advantech.simpale.MyPreferenceCategory
+        android:key=""
+        android:title="@string/brightness_adjustment">
+        <Preference
+            android:icon="@drawable/brightlight"
+            android:key="screen_light"
+            android:summary=""
+            android:title="@string/brightness_adjustment1" />
+
+    </com.advantech.simpale.MyPreferenceCategory>
+
+    <com.advantech.simpale.MyPreferenceCategory
+        android:key=""
+        android:title="@string/orientation_setting">
+        <Preference
+            android:icon="@drawable/screen"
+            android:key="SCREEN_ORIENTATION"
+            android:summary=""
+            android:title="@string/orientation_setting1" />
+
+    </com.advantech.simpale.MyPreferenceCategory>
+    <com.advantech.simpale.MyPreferenceCategory
+        android:key="mPreCatefgory"
+        android:title="@string/battery_management">
+
+
+        <Preference
+            android:key="battery_status"
+            android:summary=""
+            android:title="@string/battery_status" />
+
+        <Preference
+            android:icon="@drawable/temperature"
+            android:key="battery_tem"
+            android:summary=""
+            android:title="@string/battery_temperature" />
+
+
+        <Preference
+            android:icon="@drawable/battery"
+            android:key="battery_level"
+            android:summary=""
+            android:title="@string/power_level" />
+
+
+        <Preference
+            android:icon="@drawable/battery_scale"
+            android:key="bat_scale"
+            android:summary=""
+            android:title="@string/battery_specification" />
+
+        <Preference
+            android:icon="@drawable/health"
+            android:key="bat_health"
+            android:summary=""
+            android:title="@string/health" />
+    </com.advantech.simpale.MyPreferenceCategory>
+
+
+    <com.advantech.simpale.MyPreferenceCategory
+        android:key=""
+        android:title="@string/sound_settings">
+        <Preference
+            android:key="sound_set"
+            android:icon="@drawable/bell"
+            android:summary=""
+            android:title="@string/bell" />
+        <Preference
+            android:key="Multimedia"
+            android:icon="@drawable/multimedia"
+            android:summary=""
+            android:title="@string/multimedia_sound" />
+        <Preference
+            android:key="clock"
+            android:icon="@drawable/clock"
+            android:summary=""
+            android:title="@string/clock" />
+
+    </com.advantech.simpale.MyPreferenceCategory>
+
+
+</PreferenceScreen>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+     android:id="@+id/dig_seekbar"
+    android:orientation="vertical">
+
+
+    <SeekBar
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:id="@+id/seekbar"
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

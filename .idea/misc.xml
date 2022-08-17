@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.357" />
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/drawable/card_style.xml" value="0.357" />
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/drawable/card_style_bottom.xml" value="0.357" />
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/drawable/card_style_middle.xml" value="0.357" />
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/drawable/card_style_top.xml" value="0.357" />
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/drawable/ic_launcher_background.xml" value="0.357" />
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/drawable/progress_horizontal.xml" value="0.3185" />
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/drawable/seekbarimg.xml" value="0.3185" />
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/layout/activity_app.xml" value="0.3099647266313933" />
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/layout/activity_kiosk.xml" value="0.3099647266313933" />
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/layout/activity_main.xml" value="0.17578125" />
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/layout/activity_navigation.xml" value="0.29521963824289404" />
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/layout/activity_rotate_control.xml" value="0.23236331569664903" />
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/layout/activity_timezone_setting.xml" value="0.29521963824289404" />
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/layout/card_preference.xml" value="0.3099647266313933" />
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/layout/pref_time_settings.xml" value="0.4541343669250646" />
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/layout/seek.xml" value="0.3090828924162258" />
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/layout/seekbat.xml" value="0.3099647266313933" />
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2765" />
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2765" />
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/xml/grouppe.xml" value="0.3090828924162258" />
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/xml/navigation.xml" value="0.5" />
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/xml/navigationfragment.xml" value="0.33" />
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/xml/pref_time_settings.xml" value="0.3423772609819121" />
+        <entry key="..\:/Users/JUCAI.XIN/Desktop/simaple/app/src/main/res/xml/seek.xml" value="0.3090828924162258" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

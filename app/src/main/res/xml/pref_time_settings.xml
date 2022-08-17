@@ -1,0 +1,24 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="automatic_date_and_time"
+        android:summary="@string/auto_time_summary"
+        android:title="@string/auto_time_title" />
+    <Preference
+        android:key="set_date"
+        android:title="@string/set_data_title" />
+    <Preference
+        android:key="set_time"
+        android:title="@string/set_time_title" />
+    <SwitchPreference
+        android:key="automatic_time_zone"
+        android:summary="@string/auto_time_zone_summary"
+        android:title="@string/auto_time_zone_title" />
+    <Preference
+        android:key="set_time_zone"
+        android:title="@string/select_time_zone_title" />
+    <SwitchPreference
+        android:key="use_24_hour_format"
+        android:title="@string/use_24_hour_format_title" />
+
+</PreferenceScreen>
