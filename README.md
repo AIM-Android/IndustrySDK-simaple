@@ -578,6 +578,7 @@ belongs to class NavigationActivity.
 | void              | ModifySettingsScreenBrightness(Context context, int birghtessValue))<br />Called when you set the background brightness. |
 | void              | private int getScreenBrightness()<br />Called when you get the background brightness |
 
+
 belongs to class VolumeUtil.
 
 | Modifier and Type | Method and Description                                       |
@@ -820,6 +821,20 @@ public static final String ACCELEROMETER_ROTATION
 
 #### Battery Setting
 
+This method needs to create a broadcast
+
+```
+  BroadcastReceiver receiver = new BroadcastReceiver() {
+                @Override
+                public void onReceive(Context context, Intent intent) {
+                    intent.getIntExtra("level", -1);
+                    intent.getIntExtra("scale", -1);
+                    intent.getIntExtra("status", -1);
+                    intent.getIntExtra("health", -1);
+                    intent.getIntExtra(EXTRA_TEMPERATURE, -1);
+                }
+            }
+```
 ##### get Battery power
 ```
 intent.getIntExtra("level", -1)
@@ -842,7 +857,7 @@ intent.getIntExtra("health", -1)
 
 ##### get Battery temperature
 ```
- intent.getIntExtra(EXTRA_TEMPERATURE, -1)
+intent.getIntExtra(EXTRA_TEMPERATURE, -1)
 ```
 
 #### Sound Setting
