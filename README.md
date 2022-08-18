@@ -580,9 +580,12 @@ belongs to class NavigationActivity.
 
 belongs to class VolumeUtil.
 
+| Modifier and Type | Method and Description                                       |
+| ----------------- | ------------------------------------------------------------ |
 | void              | public void setringVolume(int volume)<br />Called when error happened. |
 | void              | public void setMediaVolume(int volume)<br />Called when the apk file was installed. |
 | void              | public void setAlermVolume(int volume)<br />Called when error happened. |
+
 
 ### Reboot & Shutdown
 
