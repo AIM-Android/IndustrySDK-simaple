@@ -1,6 +1,6 @@
 # IndustrySDK-simaple
 
-A sample app shows how to use the advindustrysdk.jar.
+A sample app shows how to use the advindustrysdk.jar and some system api.
 
 ### \libs
 The directory \libs\ contains a advindustrysdk.jar, you can import the jar to your project to develop, understand functions intuitively.  
