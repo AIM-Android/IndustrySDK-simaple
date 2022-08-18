@@ -2,7 +2,7 @@
 
 A sample app shows how to use the advindustrysdk and some system api.
 
-##about advindustrysdk,please refer to [advindustrysdk](https://github.com/AIM-Android/IndustrySDK)
+## about advindustrysdk,please refer to [advindustrysdk](https://github.com/AIM-Android/IndustrySDK)
 ### \libs
 The directory \libs\ contains a advindustrysdk.jar, you can import the jar to your project to develop, understand functions intuitively.  
 
