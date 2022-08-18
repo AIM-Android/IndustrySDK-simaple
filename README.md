@@ -42,13 +42,13 @@ The location of these methods is in the navigationactivity
 
 | Modifier and Type | Method and Description                                       |
 | ----------------- | ------------------------------------------------------------ |
-| void              | public void reboot(@Nullable String reason)<br />Called when you restart |
-| void              | public void shutdown(boolean confirm, String reason, boolean wait)<br />Called when you shut down|
-| void              | public boolean setWifiEnabled(boolean enabled)<br />Called when you turn WiFi on or off. |
-| void              | public void openGPS(boolean open)<br />Called when you turn positioning on or off |
-| void              | public void formListenerGetLocation()<br />Called when you get the location information |
-| void              | ModifySettingsScreenBrightness(Context context, int birghtessValue))<br />Called when you set the background brightness. |
-| void              | private int getScreenBrightness()<br />Called when you get the background brightness |
+| void              | public void reboot(@Nullable String reason)<br />You can use or refer to this when you restart |
+| void              | public void shutdown(boolean confirm, String reason, boolean wait)<br />You can use or refer to this when you shut down|
+| void              | public boolean setWifiEnabled(boolean enabled)<br />You can use or refer to this when you turn WiFi on or off. |
+| void              | public void openGPS(boolean open)<br />You can use or refer to this when you turn positioning on or off |
+| void              | public void formListenerGetLocation()<br />You can use or refer to this when you get the location information |
+| void              | ModifySettingsScreenBrightness(Context context, int birghtessValue))<br />You can use or refer to this when you set the background brightness. |
+| void              | private int getScreenBrightness()<br />You can use or refer to this when you get the background brightness |
 
 
 belongs to class VolumeUtil.
