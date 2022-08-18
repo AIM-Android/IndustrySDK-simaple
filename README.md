@@ -10,27 +10,27 @@ AdvIndustrySDK is an android sdk provided by Advantech. **System Permissions API
 
 In addition to the functions in the advandustrysdk, this app has the following functions::
   
-​	  Time and date setting function
+- Time and date setting function
 
-​		Power on and restart function
+- Power on and restart function
 
-​		Turn WiFi on or off  function
+- Turn WiFi on or off  function
 
-​		Turn Bluetooth on or off function
+- Turn Bluetooth on or off function
 
-​		Turn on or off the functions of positioning and obtaining positioning information
+- Turn on or off the functions of positioning and obtaining positioning information
 
-​		Turn on or off functions such as ADB debugging
+- Turn on or off functions such as ADB debugging
 
-​		Function of setting sleep duration
+- Function of setting sleep duration
 
-​		Function of setting system brightness
+- Function of setting system brightness
 
-​		Function of setting screen orientation
+- Function of setting screen orientation
 
-​		Function of obtaining battery information
+- Function of obtaining battery information
 
-​	  Set the ringing tone, multimedia alarm clock, sound size, etc
+  Set the ringing tone, multimedia alarm clock, sound size, etc
 
 
 How to implement the specific functions? Please refer to the source code in simple
