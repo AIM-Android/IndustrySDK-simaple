@@ -821,8 +821,9 @@ public static final String ACCELEROMETER_ROTATION
 
 #### Battery Setting
 
-This method needs to create a broadcast
+This method needs to create a broadcast and registration broadcast
 
+### create a broadcast
 ```
   BroadcastReceiver receiver = new BroadcastReceiver() {
                 @Override
@@ -835,6 +836,13 @@ This method needs to create a broadcast
                 }
             }
 ```
+### registration a broadcast
+
+```
+IntentFilter filter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
+getActivity().registerReceiver(receiver, filter);
+```
+
 ##### get Battery power
 ```
 intent.getIntExtra("level", -1)
