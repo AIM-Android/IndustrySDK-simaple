@@ -563,6 +563,27 @@ Here are some standard APIs provided by Android, you can click the link for more
 
 AdvIndustrySDK doesn't contains these APIs below.
 
+
+### Method Summary
+
+belongs to class NavigationActivity.
+
+| Modifier and Type | Method and Description                                       |
+| ----------------- | ------------------------------------------------------------ |
+| void              | public void reboot(@Nullable String reason)<br />Called when the apk file was installed. |
+| void              | public void shutdown(boolean confirm, String reason, boolean wait)<br />Called when the package was uninstalled |
+| void              | public boolean setWifiEnabled(boolean enabled)<br />Called when the apk file was installed. |
+| void              | public void openGPS(boolean open)<br />Called when the package was uninstalled |
+| void              | public void formListenerGetLocation()<br />Called when the package was uninstalled |
+| void              | ModifySettingsScreenBrightness(Context context, int birghtessValue))<br />Called when the apk file was installed. |
+| void              | private int getScreenBrightness()<br />Called when the package was uninstalled |
+
+belongs to class VolumeUtil.
+
+| void              | public void setringVolume(int volume)<br />Called when error happened. |
+| void              | public void setMediaVolume(int volume)<br />Called when the apk file was installed. |
+| void              | public void setAlermVolume(int volume)<br />Called when error happened. |
+
 ### Reboot & Shutdown
 
 ```
@@ -729,6 +750,7 @@ public static final String ADB_ENABLED
 ​		https://developer.android.google.cn/reference/android/provider/Settings.Global#ADB_ENABLED
 
 ### System Setting
+
 
 #### Time setting
 ```
