@@ -9,7 +9,7 @@ The directory \libs\ contains a advindustrysdk.jar, you can import the jar to yo
 
 AdvIndustrySDK is an android sdk provided by Advantech. **System Permissions API of Android.**
 
-##  system api
+##  System api
 
 In addition to the functions in the advandustrysdk, this app has the following functions::
   
