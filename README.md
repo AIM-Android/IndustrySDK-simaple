@@ -30,7 +30,7 @@ In addition to the functions in the advandustrysdk, this app has the following f
 
 - Function of obtaining battery information
 
-  Set the ringing tone, multimedia alarm clock, sound size, etc
+- Set the ringing tone, multimedia alarm clock, sound size, etc
 
 
 How to implement the specific functions? Please refer to the source code in simple
