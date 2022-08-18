@@ -570,21 +570,21 @@ belongs to class NavigationActivity.
 
 | Modifier and Type | Method and Description                                       |
 | ----------------- | ------------------------------------------------------------ |
-| void              | public void reboot(@Nullable String reason)<br />Called when the apk file was installed. |
-| void              | public void shutdown(boolean confirm, String reason, boolean wait)<br />Called when the package was uninstalled |
-| void              | public boolean setWifiEnabled(boolean enabled)<br />Called when the apk file was installed. |
-| void              | public void openGPS(boolean open)<br />Called when the package was uninstalled |
-| void              | public void formListenerGetLocation()<br />Called when the package was uninstalled |
-| void              | ModifySettingsScreenBrightness(Context context, int birghtessValue))<br />Called when the apk file was installed. |
-| void              | private int getScreenBrightness()<br />Called when the package was uninstalled |
+| void              | public void reboot(@Nullable String reason)<br />Called when you restart |
+| void              | public void shutdown(boolean confirm, String reason, boolean wait)<br />Called when you shut down|
+| void              | public boolean setWifiEnabled(boolean enabled)<br />Called when you turn WiFi on or off. |
+| void              | public void openGPS(boolean open)<br />Called when you turn positioning on or off |
+| void              | public void formListenerGetLocation()<br />Called when you get the location information |
+| void              | ModifySettingsScreenBrightness(Context context, int birghtessValue))<br />Called when you set the background brightness. |
+| void              | private int getScreenBrightness()<br />Called when you get the background brightness |
 
 belongs to class VolumeUtil.
 
 | Modifier and Type | Method and Description                                       |
 | ----------------- | ------------------------------------------------------------ |
-| void              | public void setringVolume(int volume)<br />Called when error happened. |
-| void              | public void setMediaVolume(int volume)<br />Called when the apk file was installed. |
-| void              | public void setAlermVolume(int volume)<br />Called when error happened. |
+| void              | public void setringVolume(int volume)<br />Called when you set the ringtone size. |
+| void              | public void setMediaVolume(int volume)<br />Called when you set the multimedia sound size. |
+| void              | public void setAlermVolume(int volume)<br />Called when you set the alarm clock sound. |
 
 
 ### Reboot & Shutdown
