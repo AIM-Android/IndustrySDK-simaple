@@ -23,7 +23,6 @@ In addition to the functions in the advandustrysdk, this app has the following f
 ​		Set the ringing tone, multimedia alarm clock, sound size, etc
 
 How to implement the specific functions? Please refer to the source code in simple
-
 The following are the names and locations of some methods to implement these functions
 
 ### Method Summary
